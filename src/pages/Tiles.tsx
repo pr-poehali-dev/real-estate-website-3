@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
@@ -104,6 +105,7 @@ const Tiles = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import HeroCarousel from "@/components/HeroCarousel";
 import AboutSection from "@/components/AboutSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <Header />
       <HeroCarousel />
       <AboutSection />
+      <Footer />
     </div>
   );
 };
